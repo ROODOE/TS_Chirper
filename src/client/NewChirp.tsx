@@ -1,7 +1,12 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 
 
 const NewChirp = () => {
+	const [newChirp, setNewChirp] = useState({});
+
+	useEffect(() => {
+
+	}, [])
 
 	return (
 		<>
